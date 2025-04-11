@@ -4,7 +4,7 @@ document.addEventListener('DOMContentLoaded', () => {
   
     form.addEventListener('submit', (event) => {
       event.preventDefault();
-  
+     "function"
       // Retrieve and trim input values
       const username = document.getElementById('username').value.trim();
       const email = document.getElementById('email').value.trim();
